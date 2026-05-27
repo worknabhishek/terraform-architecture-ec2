@@ -1,0 +1,12 @@
+# Terraform state files (SENSITIVE - contain secrets)
+*.tfstate
+*.tfstate.*
+
+# Local override files
+*.tfvars
+
+# The local cache folder (Not needed for others to run your code)
+.terraform/
+
+# The lock file
+.terraform.lock.hcl
